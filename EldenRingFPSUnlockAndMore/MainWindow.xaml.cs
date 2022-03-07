@@ -1120,9 +1120,5 @@ namespace EldenRingFPSUnlockAndMore
 
         #endregion
 
-        private void cbAddWidescreen_Checked(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }
