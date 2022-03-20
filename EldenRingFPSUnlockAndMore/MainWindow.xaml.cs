@@ -1121,12 +1121,6 @@ namespace EldenRingFPSUnlockAndMore
 
         #endregion
 
-        private void bPauseGame_Click(object sender, RoutedEventArgs e)
-        {
-            using (var dx = new DirectX(_gameProc))
-            {
-                string a = "";
-            }
-        }
+
     }
 }

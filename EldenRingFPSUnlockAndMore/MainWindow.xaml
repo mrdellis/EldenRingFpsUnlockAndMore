@@ -62,8 +62,6 @@
                         v1.0.0.1 - by uberhalit
                     </Hyperlink>
                 </Label>
-                <Button x:Name="bPauseGame" Width="300" Height="30" FontSize="14 px" IsEnabled="True" Content="Start game without EAC" BorderThickness="1" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" 
-                    Focusable="False" TabIndex="20" IsTabStop="False" Click="bPauseGame_Click" />
             </StackPanel>
         </DockPanel>
     </Grid>
