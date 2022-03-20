@@ -16,6 +16,7 @@ using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using System.Security.Principal;
 
+
 namespace EldenRingFPSUnlockAndMore
 {
     public partial class MainWindow : Window
@@ -1120,5 +1121,12 @@ namespace EldenRingFPSUnlockAndMore
 
         #endregion
 
+        private void bPauseGame_Click(object sender, RoutedEventArgs e)
+        {
+            using (var dx = new DirectX(_gameProc))
+            {
+                string a = "";
+            }
+        }
     }
 }
